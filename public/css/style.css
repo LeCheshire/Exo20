@@ -34,7 +34,7 @@ section:last-of-type{
 
 /* début exo 03 les_focus_03 */
 input:focus{
-    border-color: blue;
+    color:blue;
     border-radius: 10px;
 }
 
@@ -138,6 +138,30 @@ input:focus{
 
 
 /* début exo 10 les transitions */
-
+.transition_10{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    transition: 3s;
+    transition-timing-function: ease-in-out;
+}
+.transition_10_intrus{
+    background-color: lightblue;
+    border-radius: 50%;
+    height: 30%;
+    width: 30%;
+    transition: 3s;
+    transition-timing-function: ease-in-out;
+}
+.transition_10:active{
+    margin-left:80%;
+    background-color: orange;
+    border-radius: 50%;
+}
+.transition_10:active .transition_10_intrus{
+    margin-left:100%;
+    border-radius:0%;
+    background-color: blue;
+}
 /* fin exo 10 les transitions */
 
