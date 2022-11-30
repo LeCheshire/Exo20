@@ -19,7 +19,15 @@ section:last-of-type{
 
 
 /* début exo 02 les_hover_02 */
-
+.height_and_width{
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+}
+.height_and_width:hover{
+    width: 500px;
+    height: 200px;
+}
 /* fin exo 02 les_hover_02 */
 
 
