@@ -119,7 +119,20 @@ input:focus{
 
 
 /* début exo 09 les transitions */
-
+.transition_09{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+}
+.transition_09_enfant{
+    background-color: lightblue;
+    height: 20%;
+    width: 20%;
+    transition: 3s;
+}
+.transition_09:active .transition_09_enfant{
+    background-color: red;
+}
 /* fin exo 09 les transitions */
 
 
